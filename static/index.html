@@ -1,0 +1,61 @@
+﻿<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Kółko i krzyżyk</title>
+        <meta charset="utf-8"/>
+        <script>var id_usera; </script>
+        <script src="./script.js"></script>
+        <link rel="stylesheet" href="./style.css"/>
+        <script>
+            
+            init();
+        </script>
+        <style>
+            td{
+                border: 1px solid black;
+                width: 100px;
+                height: 100px;
+                text-align: center;
+                vertical-align: middle;
+                font-size: 2em;
+                color:red;
+            }
+            body{
+                color:red;
+            }
+            table{
+                left:47%;
+                top:50px;
+            }
+        </style>
+    </head>
+        <div id="container">
+            <div id="messages">
+
+            </div>
+            <div id="ox">
+
+            </div>
+
+            <table>
+                <tr>
+                    <td id="0_0" onclick="dodaj_OX(0,0)"></td>
+                    <td id="0_1" onclick="dodaj_OX(0,1)"></td>
+                    <td id="0_2" onclick="dodaj_OX(0,2)"></td>
+                </tr><tr>
+                    <td id="1_0" onclick="dodaj_OX(1,0)"></td>
+                    <td id="1_1" onclick="dodaj_OX(1,1)"></td>
+                    <td id="1_2" onclick="dodaj_OX(1,2)"></td>
+                </tr><tr>
+                    <td id="2_0" onclick="dodaj_OX(2,0)"></td>
+                    <td id="2_1" onclick="dodaj_OX(2,1)"></td>
+                    <td id="2_2" onclick="dodaj_OX(2,2)"></td>
+                </tr>
+            </table>
+
+            
+        </div> 
+    </body>
+
+</html>
