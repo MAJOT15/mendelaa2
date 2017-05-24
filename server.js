@@ -173,5 +173,4 @@ function sprawdz_mape(typ){
            return true;
     }
 }
-app.listen(3000);
-console.log("Start na porcie 3000");
+app.listen(process.env.PORT || 3000);
